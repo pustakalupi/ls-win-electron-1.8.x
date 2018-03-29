@@ -1,0 +1,38 @@
+{
+  "name": "ls-win-electron-1.8.x",
+  "version": "1.0.0",
+  "description": "Source code buku.",
+  "main": "index.js",
+  "scripts": {
+    "bab-2-hello": "electron bab-2/hello",
+    "bab-2-hello_gui": "electron bab-2/hello_gui",
+    "bab-4-ipctesting": "electron bab-4/ipctesting",
+    "bab-5-filesystem": "electron bab-5/filesystem",
+    "bab-5-modulsendiri": "electron bab-5/modulsendiri",
+    "bab-5-cobajquery": "electron bab-5/cobajquery",
+    "bab-5-browserwindow": "electron bab-5/browserwindow",
+    "bab-5-menu": "electron bab-5/menu",
+    "bab-5-systray": "electron bab-5/systray",
+    "bab-5-sysdialog": "electron bab-5/sysdialog",
+    "bab-5-notification": "electron bab-5/notification",
+    "bab-5-clipboard": "electron bab-5/clipboard",
+    "bab-6-cobadebug": "electron bab-6/cobadebug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lusfikars/ls-win-electron-1.8.x.git"
+  },
+  "author": "Lusfikar Sheba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lusfikars/ls-win-electron-1.8.x/issues"
+  },
+  "homepage": "https://github.com/lusfikars/ls-win-electron-1.8.x#readme",
+  "devDependencies": {
+    "electron": "^1.8.4"
+  },
+  "dependencies": {
+    "node-notifier": "^5.2.1"
+  }
+}
